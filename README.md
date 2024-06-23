@@ -10,14 +10,14 @@ This custom provider allows you to use Supabase for storing your uploads in a St
 
 ## How to Use
 
-### 1. Clone the Package into your strapi project at `./providers` directory and install via below command
+### 1. Install the Package into your strapi project
 
 ```bash
-npm i file:providers/strapi-provider-upload-supabase
+npm i https://github.com/jaykanjia/strapi-provider-upload-supabase.git
 ```
 
 ```bash
-yarn add file:providers/strapi-provider-upload-supabase
+yarn add https://github.com/jaykanjia/strapi-provider-upload-supabase.git
 ```
 
 ### 2. Configure the Plugin
