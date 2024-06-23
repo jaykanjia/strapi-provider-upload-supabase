@@ -1,0 +1,41 @@
+{
+  "name": "strapi-provider-upload-supabase",
+  "version": "1.0.0",
+  "description": "Supabase storage provider for Strapi",
+  "keywords": [
+    "upload",
+    "supabase",
+    "storage",
+    "strapi",
+    "provider"
+  ],
+  "homepage": "http://strapi.io",
+  "bugs": {
+    "url": "https://github.com/jaykanjia/strapi-provider-upload-supabase/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaykanjia/strapi-provider-upload-supabase.git"
+  },
+  "license": "MIT",
+  "author": "Jay Kanjia <jaykanjia11@gmail.com>",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "publish:beta": "npm version pre --preid beta --no-git-tag-version && npm publish --tag beta",
+    "publish:release": "npm version patch --no-git-tag-version && npm publish"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.43.5"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.x.x",
+    "npm": ">= 6.0.0"
+  },
+  "strapi": {
+    "isProvider": true
+  }
+}
